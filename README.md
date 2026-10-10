@@ -10,18 +10,22 @@ Airline departure delays can cause operational disruptions, additional costs and
 
 ## Dataset
 
-- Source: US Bureau of Transportation Statistics (BTS)
+**Source:** US Bureau of Transportation Statistics (BTS)
 
-- Dataset: Airline On-Time Performance Data
+**Dataset:** Airline On-Time Performance Data
 
-- Number of records: 582,425
+**Geographical Scope:** Flights departing from California airports, United States
 
-- Number of columns: 17
+**Period:** January – December 2024
 
-- Target variable: DEP_DEL15 (departure delay of 15 minutes or more)
+**Total Records:** 1,276,578 (before data cleaning)
 
-## Project Status
+**Number of Files:** 12 monthly CSV files
 
-Current stage: CA1 – Capstone Project Proposal
+**Target Variable:** `DEP_DEL15` (departure delay of 15 minutes or more)
+
+The dataset contains historical flight information, including airlines, airports, flight dates and scheduled departure times.
+
+The project will use this data to investigate whether machine learning models can predict departure delays of 15 minutes or more.
 
 This project is currently in the planning stage. Data preparation, modelling and evaluation will be carried out in later stages.
